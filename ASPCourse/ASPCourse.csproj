@@ -222,9 +222,18 @@
     <Compile Include="Migrations\20181206141037_init.designer.cs">
       <DependentUpon>20181206141037_init.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\20181206192909_AddIsSubscribedToCustomer.cs" />
+    <Compile Include="Migrations\20181206192909_AddIsSubscribedToCustomer.designer.cs">
+      <DependentUpon>20181206192909_AddIsSubscribedToCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\20181206193821_AddMembershipType.cs" />
+    <Compile Include="Migrations\20181206193821_AddMembershipType.designer.cs">
+      <DependentUpon>20181206193821_AddMembershipType.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\CustomerContextModelSnapshot.cs" />
     <Compile Include="Models\Customer.cs" />
     <Compile Include="Models\CustomerContext.cs" />
+    <Compile Include="Models\MembershipType.cs" />
     <Compile Include="Models\Movie.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ViewModels\RandomMovieViewModel.cs" />
